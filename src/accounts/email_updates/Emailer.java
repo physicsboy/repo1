@@ -21,7 +21,7 @@ public class Emailer {
 
     final String USER_NAME = "nbgardengnome";  // GMail user name (just the part before "@gmail.com)
     final String PASSWORD = "nbgardens1"; // GMail password
-    private  String[] RECIPIENTS = {"amhighton@gmail.com", "adz_is_ace@hotmail.com"}; // Can add multiple email addresses, separated by a comma as to import into the Recipient array
+    private  String[] RECIPIENTS = {"someEmail@gmail.com"}; // Can add multiple email addresses, separated by a comma as to import into the Recipient array
 
     private final String SUBJECT = "An update on your order"; //"Purchase Order (" + po.poNumber() + ") Update"; // Used when updating Accounts on the progress of the PO
 
